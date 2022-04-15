@@ -41,13 +41,13 @@ namespace strings_packed_prefix {
 
             if (startPos < packedString.size() and isdigit(packedString[startPos])) {
                 int repeatCount = int(packedString[startPos] - '0');
-                int lastPos = startPos + 2; //пропуск следующего символа '['
+                int lastPos = startPos + 2;
 
                 string repeatingString = ComputeStringPart(packedString, lastPos);
                 for (int i = 0; i < repeatCount; i++) {
                     unpackedStringPart += repeatingString;
                 }
-                startPos = lastPos + 1; //пропуск следующего символа ']'
+                startPos = lastPos + 1;
             } else {
                 return unpackedStringPart;
             }
