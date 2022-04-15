@@ -1,8 +1,6 @@
-#include "strings/packed_prefix/strings_packed_prefix.h"
-#include "strings/packed_prefix/strings_packed_prefix_test.h"
+#include "strings/packed_prefix/packed_prefix_test.h"
 
-#include "strings/crib/strings_crib.h"
-#include "strings/crib/strings_crib_test.h"
+#include "strings/crib/crib_test.h"
 
 int main() {
     strings_packed_prefix::TestAll();

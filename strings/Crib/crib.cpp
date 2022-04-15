@@ -1,4 +1,4 @@
-#include "strings_crib.h"
+#include "crib.h"
 
 namespace strings_crib {
 

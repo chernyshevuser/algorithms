@@ -1,4 +1,4 @@
-#include "strings_crib_test.h"
+#include "crib_test.h"
 
 namespace strings_crib {
     using std::vector;

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "strings_crib.h"
+#include "crib.h"
 #include "../../test_runner/test_runner.h"
 
 namespace strings_crib {
