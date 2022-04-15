@@ -3,5 +3,5 @@
 
 int main() {
     strings_packed_prefix::TestAll();
-//    strings_packed_prefix::RunProgram();
+    strings_packed_prefix::RunProgram();
 }
