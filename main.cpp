@@ -1,6 +1,7 @@
-#include <iostream>
+#include "strings/packed_prefix/strings_packed_prefix.h"
+#include "strings/packed_prefix/strings_packed_prefix_test.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    strings_packed_prefix::TestAll();
+//    strings_packed_prefix::RunProgram();
 }
