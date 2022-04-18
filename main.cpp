@@ -2,6 +2,7 @@
 #include "strings/crib/crib_test.h"
 #include "dynamic_programming/levenshtein_distance/levenshtein_distance_test.h"
 #include "dynamic_programming/equal_sum/equal_sum_test.h"
+#include "graphs/max_spanning_tree/max_spanning_tree_test.h"
 
 int main() {
 //    strings_packed_prefix::TestAll();
@@ -15,6 +16,8 @@ int main() {
 //
 //    equal_sum::TestAll();
 //    equal_sum::RunProgram();
-
+//
+//    max_spanning_tree::TestAll();
+//    max_spanning_tree::RunProgram();
 
 }
