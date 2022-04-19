@@ -3,6 +3,7 @@
 #include "dynamic_programming/levenshtein_distance/levenshtein_distance_test.h"
 #include "dynamic_programming/equal_sum/equal_sum_test.h"
 #include "graphs/max_spanning_tree/max_spanning_tree_test.h"
+#include "graphs/railways/railways_test.h"
 
 int main() {
 //    strings_packed_prefix::TestAll();
@@ -19,5 +20,8 @@ int main() {
 //
 //    max_spanning_tree::TestAll();
 //    max_spanning_tree::RunProgram();
+//
+    graphs_railways::TestAll();
+//    graphs_railways::RunProgram();
 
 }
