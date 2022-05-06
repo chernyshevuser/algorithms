@@ -6,6 +6,7 @@
 #include "graphs/railways/railways_test.h"
 #include "other/sum_of_16/sum_of_16_test.h"
 #include "hash/simple_hash_table/simple_hash_table_test.h"
+#include "hash/search_system/simple_search_system_test.h"
 
 int main() {
 //    strings_packed_prefix::TestAll();
@@ -29,7 +30,10 @@ int main() {
 //    sum_of_16::TestAll();
 //    sum_of_16::RunProgram();
 
-    hash_simple_hash_table::TestAll();
-    hash_simple_hash_table::RunProgram();
+//    hash_simple_hash_table::TestAll();
+//    hash_simple_hash_table::RunProgram();
+
+    simple_search_system::TestAll();
+    simple_search_system::RunProgram();
 
 }
