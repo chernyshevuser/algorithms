@@ -59,7 +59,6 @@ namespace hash_simple_hash_table {
 
 
     vector<string> WorkEmulation(const vector<InputCommand>& commands) {
-        using std::string;
         using std::to_string;
 
         HashMap hashMap(MAX_VECTOR_SIZE);
